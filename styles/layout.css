@@ -1,0 +1,171 @@
+/*
+CSS file
+*/
+/* Global */
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: "Arial";
+}
+
+/* Hyperlinks */
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+/* Images */
+img {
+  margin: 0;
+  padding: 0;
+  border: none;
+  margin-bottom: 15px;
+}
+
+/* Header and Footer */
+#header, #footer {
+  display: block;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+#header, #header a {
+  color: #FFFFFF;
+  background-color: #211A52;
+}
+
+#footer {
+  background-color: #211A52;
+}
+
+#footer p {
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: normal;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: normal;
+}
+
+#header #group {
+  float: left;
+  padding: 20px;
+}
+
+#header #group h1 {
+  font-size: 30px;
+}
+
+#header #group h2 {
+  font-size: 16px;
+}
+
+#header nav {
+  float: right;
+  padding: 20px;
+}
+
+#header nav ul {
+  margin-top: 20px;
+}
+
+#header nav li {
+  display: inline;
+  margin-right: 15px;
+  text-transform: uppercase;
+}
+
+#header nav li.last {
+  margin-right: 0;
+}
+
+#header nav a {
+  color: #FFFFFF;
+  background-color: #211A52;
+}
+
+#header nav a:hover {
+  color: #54626E;
+  background-color: #211A52;
+}
+
+/* Dropdown menu buttons */
+
+
+/* Center content */
+#container {
+  display: block;
+  margin: 0 auto;
+  width: 925px;
+  padding: 25px 20px;
+  border: 1.5px solid #211A52;
+  border-top: none;
+  border-bottom: none;
+  color: #54626E;
+  background-color: #FFFFFF;
+}
+
+#container a {
+  color: #DD8289;
+  background-color: #FFFFFF;
+}
+
+#container section {
+  margin: 0 0 25px 0;
+}
+
+#container #content {
+  float: right;
+  width: 575px;
+}
+
+#container #content section h2 {
+  text-transform: uppercase;
+}
+
+/* Left side content */
+#container #left {
+  float: left;
+  width: 275px;
+}
+
+#container #left h2.heading {
+  margin-bottom: 20px;
+}
+
+#container #left nav {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#container #left nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#container #left nav li {
+  margin: 0 0 5px 0;
+  padding: 0;
+}
+
+/* Clearing sections */
+.clear {
+  display: block;
+  width: 100%;
+  clear: both;
+}
